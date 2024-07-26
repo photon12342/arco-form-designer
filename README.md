@@ -37,7 +37,7 @@
 - 支持表单验证
 - 支持多语言
 
-> 如果对您有帮助，您可以点右上角 "Star" 支持一下 谢谢！本项目还在不断开发完善中,如有任何建议或问题[请在这里提出](https://github.com/photon12342/form-create-designer/issues/new)
+> 如果对您有帮助，您可以点右上角 "Star" 支持一下 谢谢！本项目还在不断开发完善中,如有任何建议或问题[请在这里提出](https://github.com/photon12342/arco-form-designer/issues/new)
 
 ![demo1](/examples/demo.png)
 
