@@ -18,12 +18,13 @@
 </p>
 
 **这个是 Vue3 版本**
+
 **arco-form-designer 是基于 [@form-create/arco-design](https://github.com/xaboy/form-create) 实现的表单设计器组件。可以通过拖拽的方式快速创建表单，提高开发者对表单的开发效率，节省开发者的时间。**
+
 **本项目基于 form-create-designer 这个项目开发 ，将UI框架更改为 [arco.design] (https://arco.design/vue/docs/start) ，做出的更改如下：**
+
 - element-plus -> arco.design
 - 增加了表单属性栏的伸缩功能
-
-[![FcDesigner](https://static.form-create.com/file/img/banner-m2.jpg)](https://pro.form-create.com/view)
 
 ## 特点
 - 使用JSON数据生成表单
@@ -36,11 +37,9 @@
 - 支持表单验证
 - 支持多语言
 
-> 如果对您有帮助，您可以点右上角 "Star" 支持一下 谢谢！本项目还在不断开发完善中,如有任何建议或问题[请在这里提出](https://github.com/xaboy/form-create-designer/issues/new)
+> 如果对您有帮助，您可以点右上角 "Star" 支持一下 谢谢！本项目还在不断开发完善中,如有任何建议或问题[请在这里提出](https://github.com/photon12342/form-create-designer/issues/new)
 
-> 本项目QQ讨论群[629709230](https://jq.qq.com/?_wv=1027&k=F1FlEFIV)
-
-![demo1](https://static.form-create.com/file/img/open-designer.jpg)
+![demo1](/examples/demo.png)
 
 ## 引入
 
@@ -64,12 +63,8 @@ app.use(FcDesigner)
 <fc-designer ref="designer"/>
 ```
 
-## 联系
-
-![http://static.form-create.com/file/img/support.jpg](http://static.form-create.com/file/img/support.jpg)
-
 ## License
 
 [MIT](http://opensource.org/licenses/MIT)
 
-Copyright (c) 2021-present xaboy
+Copyright (c) 2024-present photon12342
