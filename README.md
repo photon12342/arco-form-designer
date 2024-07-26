@@ -17,7 +17,11 @@
   <a href="https://github.com/xaboy/form-create" target="_blank"><img src="https://img.shields.io/npm/dt/@form-create/designer.svg" alt="dt" /></a>
 </p>
 
-**FcDesigner 是基于 [@form-create/arco-design](https://github.com/xaboy/form-create) 实现的表单设计器组件。可以通过拖拽的方式快速创建表单，提高开发者对表单的开发效率，节省开发者的时间。**
+**这个是 Vue3 版本**
+**arco-form-designer 是基于 [@form-create/arco-design](https://github.com/xaboy/form-create) 实现的表单设计器组件。可以通过拖拽的方式快速创建表单，提高开发者对表单的开发效率，节省开发者的时间。**
+**本项目基于 form-create-designer 这个项目开发 ，将UI框架更改为 [arco.design] (https://arco.design/vue/docs/start) ，做出的更改如下：**
+- element-plus -> arco.design
+- 增加了表单属性栏的伸缩功能
 
 [![FcDesigner](https://static.form-create.com/file/img/banner-m2.jpg)](https://pro.form-create.com/view)
 
@@ -40,23 +44,11 @@
 
 ## 引入
 
-**CDN:**
-
-```html
-<link href="https://unpkg.com/element-plus@2.0.1/dist/index.css"></link>
-<script src="https://unpkg.com/vue@next"></script>
-<script src="https://unpkg.com/element-plus@2.0.1/dist/index.full.js"></script>
-<script src="https://unpkg.com/@form-create/element-ui@next/dist/form-create.min.js"></script>
-<script src="https://unpkg.com/@form-create/designer@next/dist/index.umd.js"></script>
-```
-
 **NodeJs:**
 
 ```shell
-npm install @form-create/designer@next
+npm install arco-form-designer
 ```
-
-请自行导入`ElementPlus`并挂载
 
 ```js
 import formCreate from '@form-create/arco-design'
